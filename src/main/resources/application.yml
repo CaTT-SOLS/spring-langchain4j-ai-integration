@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: OPENAI_API_KEY
+      model-name: MODEL_TO_USE
+      log-requests: true
+      log-responses: true
+      temperature: 0.7
